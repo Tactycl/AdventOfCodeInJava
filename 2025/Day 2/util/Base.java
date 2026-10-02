@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Base {
 	public static ArrayList<String> getIds() throws IOException {
-		BufferedReader reader = Files.newBufferedReader(Path.of("inputs.txt"));
+		BufferedReader reader = Files.newBufferedReader(Path.of("2025", "Day 2", "inputs.txt"));
 
 		String line = reader.readLine();
 		reader.close();
