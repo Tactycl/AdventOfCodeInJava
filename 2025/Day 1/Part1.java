@@ -14,7 +14,7 @@ public class Part1 {
 
 		String line;
 		while ((line = reader.readLine()) != null) {
-			int offset = Integer.parseInt((String)line.subSequence(1, line.length()));
+			int offset = Integer.parseInt(line.substring(1, line.length()));
 			if (line.charAt(0) == 'L') {
 				currentPosition = (currentPosition - offset + POSITION_COUNT) % POSITION_COUNT;
 

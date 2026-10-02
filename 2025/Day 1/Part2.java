@@ -14,7 +14,7 @@ public class Part2 {
 
 		String line;
 		while ((line = reader.readLine()) != null) {
-			int offset = Integer.parseInt((String)line.subSequence(1, line.length()));
+			int offset = Integer.parseInt(line.substring(1, line.length()));
 			boolean isReverse = line.charAt(0) == 'L';
 			
 			for (int i = 0; i < offset; i++) {

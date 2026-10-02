@@ -24,7 +24,7 @@ public class Part2 extends Base {
 				String lastSplit = null;
 				boolean divisorIsValid = false;
 				for (int i = 0; i < count; i++) {
-					String thisSplit = (String)string.substring(i * divisor, (i + 1) * divisor);
+					String thisSplit = string.substring(i * divisor, (i + 1) * divisor);
 					if (lastSplit != null && !lastSplit.equals(thisSplit)) {
 						divisorIsValid = true;
 						break;
