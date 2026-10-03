@@ -1,4 +1,4 @@
-package util;
+package aoc2025.day02.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Base {
 	public static ArrayList<String> getIds() throws IOException {
-		BufferedReader reader = Files.newBufferedReader(Path.of("2025", "Day 2", "inputs.txt"));
+		BufferedReader reader = Files.newBufferedReader(Path.of("aoc2025", "day02", "inputs.txt"));
 
 		String line = reader.readLine();
 		reader.close();

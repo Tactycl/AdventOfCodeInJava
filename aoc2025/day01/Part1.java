@@ -1,3 +1,5 @@
+package aoc2025.day01;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -7,7 +9,7 @@ public class Part1 {
 	static final int POSITION_COUNT = 100;
 
 	public static void main(String[] args) throws IOException {
-		BufferedReader reader = Files.newBufferedReader(Path.of("2025", "Day 1", "inputs.txt"));
+		BufferedReader reader = Files.newBufferedReader(Path.of("aoc2025", "day01", "inputs.txt"));
 
 		int currentPosition = 50;
 		int password = 0;
@@ -29,6 +31,6 @@ public class Part1 {
 
 		reader.close();
 
-		System.out.print(password);
+		System.out.println(password);
 	}
 }

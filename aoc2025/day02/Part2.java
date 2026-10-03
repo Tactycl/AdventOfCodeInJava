@@ -1,6 +1,9 @@
+package aoc2025.day02;
+
 import java.io.IOException;
 import java.util.ArrayList;
-import util.Base;
+
+import aoc2025.day02.util.Base;
 
 public class Part2 extends Base {
 	public static void main(String[] args) throws IOException {
@@ -43,6 +46,6 @@ public class Part2 extends Base {
 			}
 		}
 
-		System.out.print(totalInvalid);
+		System.out.println(totalInvalid);
 	}
 }
